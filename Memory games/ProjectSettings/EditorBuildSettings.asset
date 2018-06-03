@@ -8,3 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 2e5d37cbc1b072047a36f38cb9020290
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: cd1a4dce736f0da4b988b4031229c0b6
+  - enabled: 1
+    path: Assets/Scenes/Memory Card Game.unity
+    guid: 0ef86b8a35d8761419843b3981aa60d0
+  - enabled: 1
+    path: Assets/Scenes/find a difference/Level.unity
+    guid: 13e24a72629812e449df19ed3cb0f160
+  - enabled: 1
+    path: Assets/Scenes/find a difference/Level 2.unity
+    guid: e491213c327e81b44b11b9f02c5a1753
+  - enabled: 1
+    path: Assets/Scenes/find a difference/Level 3.unity
+    guid: 991d8c448138b9b4cb258b46fe48ca33
+  - enabled: 1
+    path: Assets/Scenes/find a difference/Level 4.unity
+    guid: f84b79410896bac42a330daba0deb041
+  - enabled: 1
+    path: Assets/Scenes/Dodge.unity
+    guid: d28d7c720126140469b69862f4a1073a

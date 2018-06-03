@@ -913,8 +913,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320.00006, y: -258.17508}
-  m_SizeDelta: {x: 460, y: 79.270035}
+  m_AnchoredPosition: {x: 320, y: -258.25195}
+  m_SizeDelta: {x: 460, y: 79.30078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349997305
 MonoBehaviour:
@@ -1396,7 +1396,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 494301142}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1686548375}
+        m_MethodName: changeMenuScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Dodge
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &494301142
@@ -2234,8 +2245,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -342.44513}
-  m_SizeDelta: {x: 460, y: 79.270035}
+  m_AnchoredPosition: {x: 320, y: -342.55273}
+  m_SizeDelta: {x: 460, y: 79.30078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &864463821
 MonoBehaviour:
@@ -2650,7 +2661,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935069217}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1686548375}
+        m_MethodName: changeMenuScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Memory Card Game
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &935069217
@@ -3258,8 +3280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -173.90506}
-  m_SizeDelta: {x: 460, y: 79.270035}
+  m_AnchoredPosition: {x: 320, y: -173.95117}
+  m_SizeDelta: {x: 460, y: 79.30078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548973848
 MonoBehaviour:
@@ -3299,7 +3321,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1548973849}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1686548375}
+        m_MethodName: changeMenuScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Quiz
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1548973849
@@ -3575,6 +3608,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1605301472}
+--- !u!1 &1686548374 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 7461a7b0cf97947fd9b9e4502fd2d07b, type: 2}
+  m_PrefabInternal: {fileID: 21923686}
+--- !u!114 &1686548375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686548374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24a5f47301b544a8e9729489872baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1699965393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3677,8 +3725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -89.63502}
-  m_SizeDelta: {x: 460, y: 79.270035}
+  m_AnchoredPosition: {x: 320, y: -89.65039}
+  m_SizeDelta: {x: 460, y: 79.30078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1723010275
 MonoBehaviour:
@@ -4107,7 +4155,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2045910362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1686548375}
+        m_MethodName: changeMenuScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2045910362
