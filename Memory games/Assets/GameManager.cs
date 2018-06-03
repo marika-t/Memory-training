@@ -12,10 +12,6 @@ public class GameManager : MonoBehaviour {
 	[SerializeField]
 	private Text questionText;
 	[SerializeField]
-	private Text answerText1;
-	[SerializeField]
-	private Text answerText2;
-	[SerializeField]
 	private float delayNextQuestion = 2;
 	[SerializeField]
 	private Text firstAnswerText;
@@ -35,10 +31,8 @@ public class GameManager : MonoBehaviour {
 		current = unaswered [randomIndex];
 
 		questionText.text = current.question;
-		answerText1.text = current.answer1;
-		answerText2.text = current.answer2;
 
-		if (current.correctAnswer == 1) {
+		if (current.isTrue) {
 			firstAnswerText.text = "Poprawnie";
 			secondAnswerText.text = "Źle";
 		} else {
@@ -70,4 +64,5 @@ public class GameManager : MonoBehaviour {
 //			Debug.Log ("FALSE");
 		StartCoroutine(Transition ());
 	}
+
 }

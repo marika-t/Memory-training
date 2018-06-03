@@ -261,7 +261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.96545607, y: 0.4204872}
-  m_AnchoredPosition: {x: 6.9000244, y: 3.6474915}
+  m_AnchoredPosition: {x: 6.9000244, y: 3.647499}
   m_SizeDelta: {x: 14.799988, y: -10.710007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664360261
@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.4204872}
-  m_AnchoredPosition: {x: 4.600006, y: 3.649994}
+  m_AnchoredPosition: {x: 4.600006, y: 3.6500015}
   m_SizeDelta: {x: -8.2, y: -10.710007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752272391
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 1300894186}
   - component: {fileID: 1300894185}
   m_Layer: 5
-  m_Name: ans1Text
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Odpowied\u017A1"
+  m_Text: Prawda
 --- !u!222 &1300894186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -866,25 +866,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - question: "Pi\u0142ka"
-    answer1: Ball
-    answer2: Balle
-    correctAnswer: 1
-  - question: "Krzes\u0142o"
-    answer1: Tree
-    answer2: Chair
-    correctAnswer: 2
-  - question: Kwiat
-    answer1: Flower
-    answer2: Tree
-    correctAnswer: 1
-  - question: "Przet\u0142umacz: Jak si\u0119 masz?"
-    answer1: How do you do?
-    answer2: How is the weather?
-    correctAnswer: 1
+  - question: Herbata | Tea
+    isTrue: 1
+  - question: Kawa | Coffe
+    isTrue: 1
+  - question: "Pi\u0142ka | Plate"
+    isTrue: 0
+  - question: Obraz | Coaster
+    isTrue: 0
   questionText: {fileID: 913354968}
-  answerText1: {fileID: 1300894185}
-  answerText2: {fileID: 2007160227}
   delayNextQuestion: 2
   firstAnswerText: {fileID: 664360261}
   secondAnswerText: {fileID: 752272391}
@@ -913,7 +903,7 @@ GameObject:
   - component: {fileID: 2007160228}
   - component: {fileID: 2007160227}
   m_Layer: 5
-  m_Name: ans2Text
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Odpowied\u017A2"
+  m_Text: "Fa\u0142sz"
 --- !u!222 &2007160228
 CanvasRenderer:
   m_ObjectHideFlags: 0
